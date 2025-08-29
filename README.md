@@ -1,4 +1,4 @@
-# samp-plugin-crashdetect (Revolution Multiplayer Mirror)
+## samp-plugin-crashdetect (Revolution Multiplayer Mirror)
 
 **PEMBERITAHUAN PENTING: INI ADALAH REPOSITORI CERMIN (*MIRROR*)**
 
