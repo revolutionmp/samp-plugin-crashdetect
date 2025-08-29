@@ -1,3 +1,36 @@
+# samp-plugin-crashdetect (Revolution Multiplayer Mirror)
+
+**PEMBERITAHUAN PENTING: INI ADALAH REPOSITORI CERMIN (*MIRROR*)**
+
+Repositori ini adalah *fork* dari repositori `crashdetect` yang aslinya dikelola oleh Zeex dan sekarang diwariskan ke Y-Less.
+
+### Tujuan Fork Ini
+
+Satu-satunya tujuan dari *fork* dan *release* di repositori ini adalah untuk menyediakan file `pawn.json` yang sudah diperbaiki agar kompatibel dengan alur kerja modern menggunakan **`sampctl`**.
+
+**Tidak ada modifikasi apapun pada kode sumber (C++) maupun file plugin (`.dll` atau `.so`) itu sendiri.** Aset rilis yang ada di sini adalah salinan langsung dari rilis resmi aslinya.
+
+### Kenapa Ini Dibutuhkan?
+
+Repositori asli (`Y-Less/samp-plugin-crashdetect`) tidak lagi aktif dikelola, dan file `pawn.json`-nya menunjuk ke lokasi lama (`Zeex/samp-plugin-crashdetect`). Hal ini menyebabkan `sampctl` gagal mengambil dependensi dengan benar.
+
+Dengan membuat "rilis cermin" ini, kami memungkinkan para developer untuk tetap dapat menginstal plugin `crashdetect` dengan mudah melalui `sampctl` tanpa ada masalah.
+
+**Cara Penggunaan di `pawn.json`:**
+
+```json
+"dependencies": [
+  "revolutionmp/samp-plugin-crashdetect:v4.22"
+]
+```
+
+Untuk dokumentasi asli dan informasi lebih lanjut mengenai plugin ini, silakan merujuk ke [repositori resminya](https://github.com/Y-Less/samp-plugin-crashdetect).
+
+-----
+
+
+*(Di sini Anda tempelkan seluruh isi dari README.md yang lama)*
+
 [CrashDetect plugin][github]
 ============================
 
