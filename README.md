@@ -28,9 +28,6 @@ Untuk dokumentasi asli dan informasi lebih lanjut mengenai plugin ini, silakan m
 
 -----
 
-
-*(Di sini Anda tempelkan seluruh isi dari README.md yang lama)*
-
 [CrashDetect plugin][github]
 ============================
 
